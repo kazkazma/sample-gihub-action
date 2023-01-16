@@ -31,7 +31,7 @@ jobs:
     needs: build
     steps:
       - name: 下載成品檔
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: wwwroot
       - name: 部屬至 IIS
