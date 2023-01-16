@@ -32,4 +32,4 @@ jobs:
           name: wwwroot
       - name: 部屬至 IIS
         run: |
-          Copy-Item . C:/inetpub/wwwroot/cicd-sample
+          Copy-Item ./* C:/inetpub/wwwroot/cicd-sample
